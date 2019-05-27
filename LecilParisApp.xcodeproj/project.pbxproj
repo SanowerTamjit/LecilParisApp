@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0169FE11229BED870024816B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169FE10229BED870024816B /* AppDelegate.swift */; };
+		0169FE13229BED870024816B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169FE12229BED870024816B /* ViewController.swift */; };
+		0169FE16229BED870024816B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0169FE14229BED870024816B /* Main.storyboard */; };
+		0169FE18229BED9A0024816B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0169FE17229BED9A0024816B /* Assets.xcassets */; };
+		0169FE1B229BED9A0024816B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0169FE19229BED9A0024816B /* LaunchScreen.storyboard */; };
+		0169FE26229BED9B0024816B /* LecilParisAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169FE25229BED9B0024816B /* LecilParisAppTests.swift */; };
+		0169FE31229BED9B0024816B /* LecilParisAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169FE30229BED9B0024816B /* LecilParisAppUITests.swift */; };
+		0169FE3F229BEFEF0024816B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0169FE3E229BEFEF0024816B /* logo.png */; };
+		0169FE41229BF19A0024816B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169FE40229BF19A0024816B /* DataViewController.swift */; };
+		0169FE43229BF9AE0024816B /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0169FE42229BF9AE0024816B /* image1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0169FE22229BED9B0024816B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0169FE05229BED860024816B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0169FE0C229BED870024816B;
+			remoteInfo = LecilParisApp;
+		};
+		0169FE2D229BED9B0024816B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0169FE05229BED860024816B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0169FE0C229BED870024816B;
+			remoteInfo = LecilParisApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0169FE0D229BED870024816B /* LecilParisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LecilParisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0169FE10229BED870024816B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0169FE12229BED870024816B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0169FE15229BED870024816B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0169FE17229BED9A0024816B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0169FE1A229BED9A0024816B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0169FE1C229BED9A0024816B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0169FE21229BED9B0024816B /* LecilParisAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LecilParisAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0169FE25229BED9B0024816B /* LecilParisAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecilParisAppTests.swift; sourceTree = "<group>"; };
+		0169FE27229BED9B0024816B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0169FE2C229BED9B0024816B /* LecilParisAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LecilParisAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0169FE30229BED9B0024816B /* LecilParisAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecilParisAppUITests.swift; sourceTree = "<group>"; };
+		0169FE32229BED9B0024816B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0169FE3E229BEFEF0024816B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		0169FE40229BF19A0024816B /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		0169FE42229BF9AE0024816B /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0169FE0A229BED870024816B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0169FE1E229BED9B0024816B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0169FE29229BED9B0024816B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0169FE04229BED860024816B = {
+			isa = PBXGroup;
+			children = (
+				0169FE0F229BED870024816B /* LecilParisApp */,
+				0169FE24229BED9B0024816B /* LecilParisAppTests */,
+				0169FE2F229BED9B0024816B /* LecilParisAppUITests */,
+				0169FE0E229BED870024816B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0169FE0E229BED870024816B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0169FE0D229BED870024816B /* LecilParisApp.app */,
+				0169FE21229BED9B0024816B /* LecilParisAppTests.xctest */,
+				0169FE2C229BED9B0024816B /* LecilParisAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0169FE0F229BED870024816B /* LecilParisApp */ = {
+			isa = PBXGroup;
+			children = (
+				0169FE10229BED870024816B /* AppDelegate.swift */,
+				0169FE12229BED870024816B /* ViewController.swift */,
+				0169FE14229BED870024816B /* Main.storyboard */,
+				0169FE17229BED9A0024816B /* Assets.xcassets */,
+				0169FE19229BED9A0024816B /* LaunchScreen.storyboard */,
+				0169FE1C229BED9A0024816B /* Info.plist */,
+				0169FE42229BF9AE0024816B /* image1.png */,
+				0169FE3E229BEFEF0024816B /* logo.png */,
+				0169FE40229BF19A0024816B /* DataViewController.swift */,
+			);
+			path = LecilParisApp;
+			sourceTree = "<group>";
+		};
+		0169FE24229BED9B0024816B /* LecilParisAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0169FE25229BED9B0024816B /* LecilParisAppTests.swift */,
+				0169FE27229BED9B0024816B /* Info.plist */,
+			);
+			path = LecilParisAppTests;
+			sourceTree = "<group>";
+		};
+		0169FE2F229BED9B0024816B /* LecilParisAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0169FE30229BED9B0024816B /* LecilParisAppUITests.swift */,
+				0169FE32229BED9B0024816B /* Info.plist */,
+			);
+			path = LecilParisAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0169FE0C229BED870024816B /* LecilParisApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0169FE35229BED9B0024816B /* Build configuration list for PBXNativeTarget "LecilParisApp" */;
+			buildPhases = (
+				0169FE09229BED870024816B /* Sources */,
+				0169FE0A229BED870024816B /* Frameworks */,
+				0169FE0B229BED870024816B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LecilParisApp;
+			productName = LecilParisApp;
+			productReference = 0169FE0D229BED870024816B /* LecilParisApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0169FE20229BED9B0024816B /* LecilParisAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0169FE38229BED9B0024816B /* Build configuration list for PBXNativeTarget "LecilParisAppTests" */;
+			buildPhases = (
+				0169FE1D229BED9B0024816B /* Sources */,
+				0169FE1E229BED9B0024816B /* Frameworks */,
+				0169FE1F229BED9B0024816B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0169FE23229BED9B0024816B /* PBXTargetDependency */,
+			);
+			name = LecilParisAppTests;
+			productName = LecilParisAppTests;
+			productReference = 0169FE21229BED9B0024816B /* LecilParisAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0169FE2B229BED9B0024816B /* LecilParisAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0169FE3B229BED9B0024816B /* Build configuration list for PBXNativeTarget "LecilParisAppUITests" */;
+			buildPhases = (
+				0169FE28229BED9B0024816B /* Sources */,
+				0169FE29229BED9B0024816B /* Frameworks */,
+				0169FE2A229BED9B0024816B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0169FE2E229BED9B0024816B /* PBXTargetDependency */,
+			);
+			name = LecilParisAppUITests;
+			productName = LecilParisAppUITests;
+			productReference = 0169FE2C229BED9B0024816B /* LecilParisAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0169FE05229BED860024816B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = LecilPairs;
+				TargetAttributes = {
+					0169FE0C229BED870024816B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0169FE20229BED9B0024816B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0169FE0C229BED870024816B;
+					};
+					0169FE2B229BED9B0024816B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0169FE0C229BED870024816B;
+					};
+				};
+			};
+			buildConfigurationList = 0169FE08229BED860024816B /* Build configuration list for PBXProject "LecilParisApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0169FE04229BED860024816B;
+			productRefGroup = 0169FE0E229BED870024816B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0169FE0C229BED870024816B /* LecilParisApp */,
+				0169FE20229BED9B0024816B /* LecilParisAppTests */,
+				0169FE2B229BED9B0024816B /* LecilParisAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0169FE0B229BED870024816B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0169FE3F229BEFEF0024816B /* logo.png in Resources */,
+				0169FE43229BF9AE0024816B /* image1.png in Resources */,
+				0169FE1B229BED9A0024816B /* LaunchScreen.storyboard in Resources */,
+				0169FE18229BED9A0024816B /* Assets.xcassets in Resources */,
+				0169FE16229BED870024816B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0169FE1F229BED9B0024816B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0169FE2A229BED9B0024816B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0169FE09229BED870024816B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0169FE13229BED870024816B /* ViewController.swift in Sources */,
+				0169FE41229BF19A0024816B /* DataViewController.swift in Sources */,
+				0169FE11229BED870024816B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0169FE1D229BED9B0024816B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0169FE26229BED9B0024816B /* LecilParisAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0169FE28229BED9B0024816B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0169FE31229BED9B0024816B /* LecilParisAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0169FE23229BED9B0024816B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0169FE0C229BED870024816B /* LecilParisApp */;
+			targetProxy = 0169FE22229BED9B0024816B /* PBXContainerItemProxy */;
+		};
+		0169FE2E229BED9B0024816B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0169FE0C229BED870024816B /* LecilParisApp */;
+			targetProxy = 0169FE2D229BED9B0024816B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0169FE14229BED870024816B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0169FE15229BED870024816B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0169FE19229BED9A0024816B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0169FE1A229BED9A0024816B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0169FE33229BED9B0024816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0169FE34229BED9B0024816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0169FE36229BED9B0024816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKK8KY4Z6Y;
+				INFOPLIST_FILE = LecilParisApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecilpairs.LecilParisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0169FE37229BED9B0024816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKK8KY4Z6Y;
+				INFOPLIST_FILE = LecilParisApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecilpairs.LecilParisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0169FE39229BED9B0024816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKK8KY4Z6Y;
+				INFOPLIST_FILE = LecilParisAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecilpairs.LecilParisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LecilParisApp.app/LecilParisApp";
+			};
+			name = Debug;
+		};
+		0169FE3A229BED9B0024816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKK8KY4Z6Y;
+				INFOPLIST_FILE = LecilParisAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecilpairs.LecilParisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LecilParisApp.app/LecilParisApp";
+			};
+			name = Release;
+		};
+		0169FE3C229BED9B0024816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKK8KY4Z6Y;
+				INFOPLIST_FILE = LecilParisAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecilpairs.LecilParisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LecilParisApp;
+			};
+			name = Debug;
+		};
+		0169FE3D229BED9B0024816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKK8KY4Z6Y;
+				INFOPLIST_FILE = LecilParisAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecilpairs.LecilParisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LecilParisApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0169FE08229BED860024816B /* Build configuration list for PBXProject "LecilParisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0169FE33229BED9B0024816B /* Debug */,
+				0169FE34229BED9B0024816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0169FE35229BED9B0024816B /* Build configuration list for PBXNativeTarget "LecilParisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0169FE36229BED9B0024816B /* Debug */,
+				0169FE37229BED9B0024816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0169FE38229BED9B0024816B /* Build configuration list for PBXNativeTarget "LecilParisAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0169FE39229BED9B0024816B /* Debug */,
+				0169FE3A229BED9B0024816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0169FE3B229BED9B0024816B /* Build configuration list for PBXNativeTarget "LecilParisAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0169FE3C229BED9B0024816B /* Debug */,
+				0169FE3D229BED9B0024816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0169FE05229BED860024816B /* Project object */;
+}
